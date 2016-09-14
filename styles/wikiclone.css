@@ -1,0 +1,61 @@
+header {
+  height: 200px;
+
+
+}
+
+.intro {
+    /*height: 150px;*/
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+    margin-top: 20px;
+    position: relative;
+}
+strong {
+  font-weight: bold;
+}
+.welcome{
+  position: absolute;
+  right: 10%;
+  margin: auto;
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ .links{
+   width: 80%;
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin: auto;
+
+ }
+  .projects{
+    height: 175px;
+    width: 25%;
+    text-align: center;
+    min-width: 150px;
+    max-width: 300px;
+    line-height: 175px;
+  }
+    .projects img {
+          width: 135px;
+    }
+
+
+.main-footer{
+  border-top: .5px solid #aaa;
+  padding-top: 15px;
+  text-align: center;
+}
+ li {
+   padding: 10px;
+   display:inline;
+   text-align: center;
+ }
+  a{
+    text-decoration: none;
+    font-size: 15px;
+  }
